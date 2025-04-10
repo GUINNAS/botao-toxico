@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Red Hat Display', sans-serif; 
+}
+
+#title{
+    font-size: 2.5rem;
+    justify-content: center;
+}
+
+#botao-toxico {
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    background-color: #ff0000;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
