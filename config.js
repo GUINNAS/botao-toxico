@@ -10,9 +10,16 @@ function moverBotao() {
 
 botaoToxico.addEventListener('click', (e) => {
     e.preventDefault();
-    console.log('Mexeu')
     
     moverBotao();
 });
 
-moverBotao();
+const botaoAceite = document.getElementById('botao-normal');
+const mensagem = document.getElementById('mensagem');
+const botoes = document.getElementById('botoes');
+
+botaoAceite.addEventListener('click', (e) => {
+    e.preventDefault();
+    mensagem.style.display = 'block';
+    botoes.style.display = 'none';
+});
